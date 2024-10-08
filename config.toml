@@ -1,0 +1,17 @@
+baseURL = "/"
+theme = "terminal"
+
+[params]
+    themeColor = "red"
+    centerTheme = true
+
+[languages]
+    [languages.en]
+        title = "Jackson has a blog"
+        [languages.en.params.logo]
+            logoText = "Jackson has a blog"
+
+[deployment]
+    [[deployment.targets]]
+        name = "AWS"
+        URL = "s3://jacksontheel.com?region=us-west-2"
