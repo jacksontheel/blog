@@ -2,8 +2,9 @@ baseURL = "/"
 theme = "terminal"
 
 [params]
-    themeColor = "red"
+    fullWidthTheme = false
     centerTheme = true
+    readmore = "↳"
 
 [languages]
     [languages.en]
